@@ -1,0 +1,14 @@
+#avg_spend, #totalSpendChart, #total_no_of_rfq, #avg_moq, #areaChart {
+    cursor: pointer;
+}
+
+.section:hover {
+    transform: scale(1.05);
+    transition: transform 300ms;
+    color: navy;
+}
+
+.activeGraph {
+    color: royalblue;
+    border-bottom: 1px solid royalblue;
+}
